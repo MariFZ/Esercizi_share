@@ -4,17 +4,24 @@ nomi: list= ["Juan", "Mary", "Andrew", "Diego", "Tatiana", "Paulina"]
 
 messaggio: str= ("Sei invitat@ alla festa di Natale")
 
-for persone in nomi:
-    print(persone + "Sei invitato alla festa di Natale")
 
-# print(nomi[0] + ": " + messaggio)
+print(f" {nomi[0]}: {messaggio}")
 
-# print(nomi[1] + ": " + messaggio)
 
-# print(nomi[2] + ": " + messaggio)
+print(f" {nomi[1]}: {messaggio}")
 
-# print(nomi[3] + ": " + messaggio)
 
-# print(nomi[4] + ": " + messaggio)
+print(f" {nomi[2]}: {messaggio}")
 
-# print(nomi[5] + ": " + messaggio)
+print(f" {nomi[3]}: {messaggio}") 
+
+
+print(f" {nomi[4]}: {messaggio}")
+
+
+print(f" {nomi[5]}: {messaggio}")
+
+# COL CICLO FOR
+
+#for persone in nomi:
+    #print(f" Tutti voi {persone}: {messaggio}")

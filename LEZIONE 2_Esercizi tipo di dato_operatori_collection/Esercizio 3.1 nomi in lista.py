@@ -4,7 +4,7 @@ nomi: list= ["Juan", "Mary", "Andrew", "Diego", "Tatiana", "Paulina"]
 
 print("Questo è il primo nome della lista: " + nomi[0])
 
-print("Questo è il secondo nome della lista: " + nomi[1])
+print(f"Questo è il secondo nome della lista: {nomi[1]}")
 
 print("Questo è il terzo nome della lista: " + nomi[2])
 
