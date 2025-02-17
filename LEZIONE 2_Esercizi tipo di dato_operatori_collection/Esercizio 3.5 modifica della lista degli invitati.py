@@ -3,7 +3,6 @@
 invitati: list=["Andrew", "Chiara", "Jean Paul"]
 
 
-
 print("Ciao " + invitati[0] + ", " + invitati[2]  + ", da tanti anni non ci vediamo. Volete venire a cena?.  Anche " + invitati[1] + " voleva venire, ma purtroppo ha un impegno"  )
 
 
